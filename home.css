@@ -8,7 +8,7 @@
 } 
 
 .a1{ 
-    top: 22%;
+    top: 17%;
     left: 70%;
     transform: translate(-50%, -50%);
     color:black;
@@ -42,6 +42,53 @@ a:hover {
     top: -18px; 
 }
 
+table {
+    margin-left: 110px; 
+      border-collapse: collapse;
+      width: 85%;
+      position: absolute;
+      top: 217px; 
+  }
+
+.border{
+
+    border: 1px solid #0000009e;;
+    padding-bottom: 342px; 
+    padding-right: 1151px; 
+    margin-left: 106px; 
+    position: absolute;
+    margin-top: 217px; 
+    background-color:#0000009e;
+    
+}
+  
+  th, td {
+      padding: 8px;
+      text-align: left;
+      border-bottom: 1px solid #ddd;
+      font-size: 17px; 
+      color: white;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  tr:hover {background-color:rgb(236, 134, 17)}
+
+  button {
+    background-color:rgb(110, 170, 173);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+button:hover {
+    opacity:1;
+    background-color: rgb(90, 173, 90);
+    transition: .7s ease;
+}
 
 
 .footer{
