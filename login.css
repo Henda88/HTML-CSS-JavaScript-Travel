@@ -1,0 +1,58 @@
+body{
+   background-image: url("image/image2.png");
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+img{
+    position: absolute;
+    left: 615px;
+    width: 400px;
+}
+div{
+    background-color: #89ddf44a;
+    border-radius: 20px ;
+    border: none;
+    position: absolute;
+    left: 790px;
+    width: 430px;
+    top: 210px;
+    opacity: 0.9;
+}
+a{
+    font-size: 25px;
+    color: black;
+}
+h1{
+    position: relative;
+    left: 175px;
+}
+input[type=username], input[type=email], input[type=age],input[type=password] {
+    width: 92%;
+    padding: 17px ;
+    margin: 19px 0 25px 0;
+    display: inline-block;
+    border: 1px white;
+    background: #f1f1f1;
+    border-radius: 10px;
+}
+button {
+    background-color:#71acd4;
+    color: black;
+    font-size: 15;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border-radius: 20px;
+    cursor: pointer;
+    position: relative;
+    left: 120px;
+    width: 40%;
+    opacity: 0.9;
+}
+
+button:hover {
+    background-color: rgba(0, 0, 0, 0.39);
+    opacity:0.7;
+}
+body{
+    overflow: hidden;
+}
