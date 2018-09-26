@@ -12,7 +12,7 @@ function connexion() {
            break;
         }
         else {
-           var d = document.getElementById("message7").innerHTML=" please check your username or password";
+           var d = document.getElementById("message").innerHTML=" please check your username or password";
         }
         
     }
