@@ -1,0 +1,161 @@
+body {
+    background-image: url(image/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+.img1 {
+    width: 430px;
+    position: absolute;
+    left: 465px;
+}
+.title1 {
+    position: absolute;
+    left: 449px;
+    top: 212px;
+    font-size: 41px;
+    border: 1px solid #89c4f4;
+    padding-right: 336px;
+    padding-left: 151px;
+    padding-bottom: 572px;
+    background-color: #89c4f4;
+    opacity: 0.1;
+}
+.title {
+    position: absolute;
+    left: 508px;
+    top: 279px;
+    font-size: 35px;
+}
+.Username {
+    position: absolute;
+    left: 506px;
+    top: 391px;
+    font-size: 25px;
+    
+}
+.myid1 {
+    position: absolute;
+    left: 502px;
+    top: 422px;
+    background-color:  #89c4f4;
+    border-top: 0px;
+    border-bottom: 1px solid blue;
+    border-right: 0px;
+    border-left: 0px;
+    padding-right: 223px;
+    padding-bottom: 10px;
+    padding-top: 3px;
+    opacity: 0.3;
+    
+}
+.message0 {
+    position: absolute;
+    left: 506px;
+    top: 438px;
+    color: red;
+}
+.email {
+    position: absolute;
+    left: 506px;
+    top: 475px;
+    font-size: 25px;
+    
+    
+}
+.message1 {
+    position: absolute;
+    left: 506px;
+    top: 525px;
+    color:red;
+}
+.myid2 {
+    position: absolute;
+    left: 503px;
+    top: 512px;
+    background-color:  #89c4f4;
+    border-top: 0px;
+    border-bottom: 1px solid blue;
+    border-right: 0px;
+    border-left: 0px;
+    padding-right: 223px;
+    padding-bottom: 10px;
+    padding-top: 3px;
+    opacity: 0.3;
+    
+    
+}
+.message2 {
+    position: absolute;
+    left: 506px;
+    top: 566px;
+    font-size: 25px;
+    
+}
+.myid3 {
+    position: absolute;
+    left: 503px;
+    top: 600px;
+    background-color:  #89c4f4;
+    border-top: 0px;
+    border-bottom: 1px solid blue;
+    border-right: 0px;
+    border-left: 0px;
+    padding-right: 253px;
+    padding-bottom: 10px;
+    padding-top: 3px;
+    opacity: 0.3;
+}
+.message3 {
+    position: absolute;
+    left: 506px;
+    top: 615px;
+    color: red;
+}
+.password {
+    position: absolute;
+    left: 506px;
+    top: 653px;
+    font-size: 25px;
+    
+}
+.myid4 {
+    position: absolute;
+    left: 503px;
+    top: 687px;
+    background-color:  #89c4f4;
+    border-top: 0px;
+    border-bottom: 1px solid blue;
+    border-right: 0px;
+    border-left: 0px;
+    padding-right: 223px;
+    padding-bottom: 10px;
+    padding-top: 3px;
+    opacity: 0.3;
+}
+.message4 {
+    position: absolute;
+    left: 506px;
+    top : 698px;
+    
+    
+}
+.button {
+    position: absolute;
+    left: 652px;
+    top: 758px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    
+}
+.title2 {
+    position: absolute;
+    left: 625px;
+    top: 228px;
+    font-size: 35px;
+    
+}

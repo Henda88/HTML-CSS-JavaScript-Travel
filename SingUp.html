@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>SingUp</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="SingUp.css" />
+    
+</head>
+<body>
+    <img class="img1" src="image/Logo.png">
+    <h1 class="title1"></h1>
+    <h2 class="title2">SingUp</h2>
+    <p class="title">fill in this form to signUp</p>
+    <label class="Username" for="username"><b>Username  :</b></label>
+    
+    <input class="myid1" id="myid1" type="username" onblur="myfunction1()" placeholder="enter your username" name="username" required>
+    
+    <p class="message0" id="message1" type="text"></p>
+    <label class="email" for="Email"><b>Email  :</b></label>
+    <input class="myid2" id="myid2" type="email" onblur="myfunction2()" placeholder="enter your email"name="email" required>
+    <p class="message1" id="message2" type="text"></p>
+    <div><label  for="age"><b class="message2">Date of Birth  :</b></label>
+    <input class="myid3" id="myid3" type="date" onblur="myfunction3()" placeholder="enter your age"  name="Age" required></div>
+    <p class="message3" id="message3" type="text"></p>
+    <label class="password" for="password"><b>Password  :</b></label>
+    <input class="myid4" id="myid4" type="password"  oninput="myfunction4()" placeholder="enter your password" name="password" required>
+    <p class="message4" id="message4" type="text"></p>
+    <button class="button" id="button" type="button"  onclick="main(),myfunction6()">signUp</button>
+
+
+
+
+    <script src="SingUp.js"></script>
+</body>
+</html>
