@@ -1,0 +1,319 @@
+*{
+    margin: 0px;
+}
+
+body{
+
+  background-image: url("image/paris2.jpg");
+}
+
+#image1{
+
+    width: 263px;
+    height: 189px;
+    position: absolute;
+    top: -18px; 
+}
+
+div#toppage {
+    width: 555px;
+    height: 63px;
+    background-color: #00000000;
+    position: absolute;
+    top: 0px;
+    padding-right: -51px;
+    MARGIN-LEFT: 807px;
+}
+
+div#navbar {
+    left: 0px;
+    width: 190px;
+    height: 554px;
+    background-image: url(image/back.jpg);
+    overflow: hidden;
+    position: absolute;
+    top: 0px;
+}
+
+h2{
+    margin-top: 34%;
+    color: whitesmoke;
+    position: absolute;
+    margin-left: 20%;
+}
+
+
+ul{
+
+    position: absolute;
+    margin-top: 97%;
+    
+
+}
+
+li, li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-left: -20px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+   
+    background-color: rgb(151, 101, 9);
+    color: black;
+    cursor: pointer;
+    width: 150px;
+} 
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 146px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    padding-left: 0px;
+}
+
+.dropdown-content a {
+    color: whitesmoke;
+    padding: 11px 1px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown:hover .dropdown-content 
+{
+    display: block;
+
+}
+
+.container{
+
+    position: absolute;
+    left: 389px;
+    top: 264px;
+    color: white;
+}
+
+.title{
+
+    font-size: 29px;
+    color: white;
+    left: 315px;
+    padding-left: 127px;
+    position: absolute;
+    padding-bottom: 69px;
+    top: 50px;
+    font-family: monospace;
+}
+  
+.cars {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 35px;
+    margin-left: -20px;
+    text-decoration: none;
+    margin-top: 310px;
+}
+
+.hotel {
+    margin-top: 218px;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-left: -4px;
+    text-decoration: none;
+}
+
+.flights {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-left: -5px;
+    text-decoration: none;
+    margin-top: 101px;
+}
+
+#body {
+
+    padding-bottom: 554px;
+    padding-left: 890px;
+    position: absolute;
+    border: 1px solid black;
+    background-color: #020202ba;
+    left: 267px;
+    top: 63px;
+
+}
+
+#a1{
+
+    top: 39%;
+    left: 6%;
+    transform: translate(-50%, -50%);
+    color: black;
+    text-decoration: none;
+    padding-left: 0.2cm;
+    font-size: 20px;
+    position: absolute;
+}
+
+#a2{
+
+    top: 39%;
+    left: 32%;
+    transform: translate(-50%, -50%);
+    color: black;
+    text-decoration: none;
+    padding-left: 0.2cm;
+    font-size: 21px;
+    position: absolute;
+}
+
+#a3{
+
+    top: 39%;
+    left: 56%;
+    transform: translate(-50%, -50%);
+    color: black;
+    text-decoration: none;
+    padding-left: 0.2cm;
+    font-size: 21px;
+    position: absolute;
+}
+
+#a4{
+
+    top: 39%;
+    left: 78%;
+    transform: translate(-50%, -50%);
+    color: black;
+    text-decoration: none;
+    padding-left: 0.2cm;
+    font-size: 21px;
+    position: absolute;
+}
+
+#a1:hover {
+    
+    color: rgb(252, 248, 27);
+    text-decoration: none;
+    font-size: 25px;;
+}
+
+#a2:hover {
+    
+    color: rgb(252, 248, 27);
+    text-decoration: none;
+    font-size: 25px;
+}
+
+#a3:hover {
+    
+    color: rgb(252, 248, 27);
+    text-decoration: none;
+    font-size: 25px;
+}
+
+#a4:hover {
+    
+    color: rgb(252, 248, 27);
+    text-decoration: none;
+    font-size: 25px;
+}
+
+#tab1{
+
+    background-color:  #6961618a;
+    padding: 16px;
+    margin-top: -69px;
+    margin-left: -143px;
+    color: white;
+    font-family: monospace;
+    font-size: 16px;
+    
+
+}
+
+#modif{
+
+    color: green;
+    background-color: #86e286;
+    width: 65px;
+    height: 27px;
+} 
+
+#supp{
+
+    color: #ce0b0b;
+    background-color: #e67d7d;
+    width: 65px;
+    height: 27px;
+} 
+
+#tab2{
+
+    background-color: #6961618a;
+    padding: 42px;
+    margin-top: -88px;
+    margin-left: -105px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+
+}
+#ajou{
+
+    color: green;
+    background-color: #86e286;
+    width: 90px;
+    height: 27px;
+    position: absolute;
+    top: -32px;
+    left: 299px;
+    font-size: 18px;
+} 
+
+#reset{
+
+    color: #ce0b0b;
+    background-color: #e67d7d;
+    width: 90px;
+    height: 27px;
+    position: absolute;
+    top: 20px;
+    left: 299px;
+    font-size: 18px;
+
+} 
+
+
+#search1{
+
+    position: absolute;
+    top: -116px;
+    background-color: #d6ccccbd;;
+    margin-left: 77px; 
+
+}
+
+#label1{
+
+    font-family: monospace;
+    font-size: 20px;
+    position: absolute;
+    top: -116px;
+    margin-left: 1px; 
+
+}

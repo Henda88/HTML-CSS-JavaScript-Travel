@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>ADMIN</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="ADMIN.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <link rel="icon" href="image/travel.png" />
+</head>
+
+<body>
+
+    <img id="image1" src="image/travel.png">
+    <div id="toppage">
+
+        <DIV ALIGN="CENTER">
+            <a id="a1" class="icon-user" href="#"> Profile</a>
+            <a id="a2" class="icon-bell" href="#"> Notifications</a>
+            <a id="a3" class="icon-mail2" href="#"> Mail</a>
+            <a id="a4" class="icon-exit" href="login.html"> Log Out</a>
+        </div>
+
+
+    </div>
+
+
+    <div id="body">
+
+        <div id="navbar">
+
+            <h2>ADMIN</h2>
+            <ul class="flights">
+                <li class="dropdown">
+                    <a>Flights</a>
+
+                    <div class="dropdown-content">
+                        <a onclick="ajoutFlight()">Add new Flight</a>
+                        <a onclick="AfficherListeFlights()">Delete Flight</a>
+                       <!-- <a onclick="searchFlights()">Search Flight</a> !-->
+                    </div>
+                </li>
+            </ul>
+
+            <ul class="hotel">
+                <li class="dropdown">
+                    <a> Hotels</a>
+                    <div class="dropdown-content">
+                        <a onclick="ajoutHotel()">Add new Hotel</a>
+                        <a onclick="AfficherListeHotels()">Delete Hotel</a>
+                       <!-- <a onclick="searchHotel()">Search Hotel</a> !-->
+                    </div>
+                </li>
+            </ul>
+
+            <ul class="cars">
+                <li class="dropdown">
+                    <a> Cars</a>
+                    <div class="dropdown-content">
+                        <a onclick="ajoutCar()">Add new Car</a>
+                        <a onclick="AfficherListeCars()">Delete Car</a>
+                      <!--  <a onclick="searchCar()">Search Car</a> !-->
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <div class="title" id="title1"></div>
+        <div class="container" id="container1">
+        </div>
+    </div>
+    </div>
+
+
+    <script src="ADMIN.js"></script>
+</body>
+
+</html>

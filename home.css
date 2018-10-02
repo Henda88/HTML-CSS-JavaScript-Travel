@@ -90,6 +90,13 @@ button:hover {
     transition: .7s ease;
 }
 
+#btn:hover{
+    opacity:1;
+    background-color: rgb(90, 173, 90);
+    transition: .7s ease;
+
+}
+
 
 .footer{
     background-color:black;
@@ -121,6 +128,56 @@ h4{
     color: lightgray;
 }
 
+.border1{
 
+    border: 1px solid #0000009e;
+    padding-bottom: 537px;
+    padding-right: 470px;
+    margin-left: 396px;
+    position: absolute;
+    margin-top: 155px;
+    background-color: #0000009e;
+    
+}
 
+.tab1 {
+    margin-left: 424px;
+    border-collapse: collapse;
+    width: 32%;
+    position: absolute;
+    top: 217px;
+  }
 
+#th1 {
+    background-color: orange; 
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    font-size: 17px; 
+    color: white;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#btn {
+    left: 521px;
+    top: 609px;
+    position: absolute;
+    background-color: rgb(110, 170, 173);
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    cursor: pointer;
+    width: 15%;
+    opacity: 0.9;
+}
+
+#td2 {
+    background-color: orange; 
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    font-size: 17px; 
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
