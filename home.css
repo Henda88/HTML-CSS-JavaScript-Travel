@@ -5,6 +5,8 @@
 
 .mySlides {
     display:none;
+    height: 967px;
+
 } 
 
 .a1{ 
@@ -76,7 +78,7 @@ table {
   button {
     background-color:rgb(110, 170, 173);
     color: white;
-    padding: 14px 20px;
+    padding: 5px 5px;
     margin: 8px 0;
     border: none;
     cursor: pointer;
@@ -108,13 +110,13 @@ h3{
 
     position: absolute;
     left: 17%;
-    top: 785px;
+    top: 989px;
     color: lightgray;
 }
 
 ul{
     position: absolute;
-    top: 816px;
+    top: 1022px;
     left: 15%;
     color: lightgray;
 }
@@ -124,14 +126,14 @@ h4{
 
     position: absolute;
     right: 12%;
-    top: 836px;
+    top: 1034px;
     color: lightgray;
 }
 
 .border1{
 
     border: 1px solid #0000009e;
-    padding-bottom: 537px;
+    padding-bottom: 805px;
     padding-right: 470px;
     margin-left: 396px;
     position: absolute;
@@ -140,15 +142,15 @@ h4{
     
 }
 
-.tab1 {
-    margin-left: 424px;
+#tab1 {
+    margin-left: 224px;
     border-collapse: collapse;
-    width: 32%;
+    width: 123%;
     position: absolute;
-    top: 217px;
+    top: 413px;
   }
 
-#th1 {
+th {
     background-color: orange; 
     padding: 8px;
     text-align: left;
@@ -180,4 +182,61 @@ h4{
     font-size: 17px; 
     color: white;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#haythem1 {
+    position: absolute;
+    top: 200px;
+    padding-left: 200px;
+    padding-right: 150px;
+    
+    
+}
+#haythem2 {
+    position: absolute;
+    top: 200px;
+    padding-left: 200px;
+    padding-right: 150px;
+    
+}
+.Confirmer {
+    position: absolute;
+    margin-right: 500px;
+    
+    left: 500px;
+    padding-left: 277px;
+    padding-right: 10px;
+}
+#tab2 {
+    margin-left: 223px;
+    border-collapse: collapse;
+    width: 123%;
+    position: absolute;
+    top: 217px;
+
+  }
+
+  #tab3 {
+    margin-left: 424px;
+    border-collapse: collapse;
+    width: 32%;
+    position: absolute;
+    top: 217px;
+  }
+#page{
+    height: 957px;
+}
+.haythem {
+    position: absolute;
+    margin-right: 200px;
+    margin-left: 200px;
+}
+#button24 {
+    position: absolute;
+    margin-left: 339px;
+    margin-right: 61px;
+    padding-left: 50px;
+    padding-right: 106px;
+    right: 571px;
+    width: 75px;
+    top: 908px;
 }

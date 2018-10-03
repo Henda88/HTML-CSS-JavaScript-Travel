@@ -1,6 +1,6 @@
 function main(){
-    if (!myfunction1()&& !myfunction2()&& !myfunction3()&& myfunction5()){
-        var f = document.getElementById("lien").innerHTML = window.location.href="login.html";
+    if (!myfunction1()&& !myfunction2()&& !myfunction3()&& myfunction5()&& myfunction6()){
+       
         }
         
 
@@ -117,7 +117,7 @@ function myfunction1() {
       return false;
  }
  
-var dd = [{ "name": "Admin" , "password":"Admin","email":"haythembenjbara@gmail.com","date":"10/20/1990"}];
+var dd = [{ name: "Admin" , password:"Admin",email:"haythembenjbara@gmail.com",date:"10/20/1990"}];
  
  
  function myfunction6() {
@@ -125,9 +125,10 @@ var dd = [{ "name": "Admin" , "password":"Admin","email":"haythembenjbara@gmail.
      var d = document.getElementById("myid4").value;
      var w = document.getElementById("myid2").value;
      var z = document.getElementById("myid3").value;
-     dd.push({"name":x,"password":d,"email":w,"date":z});
-
+     
+     dd.push({name:x,password:d,email:w,date:z});
+     
      localStorage.setItem("idtab",JSON.stringify(dd));
-    
+     var f = document.getElementById("lien").innerHTML = window.location.href="login.html";
  }
     

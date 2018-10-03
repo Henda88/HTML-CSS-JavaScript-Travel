@@ -2,6 +2,7 @@ body {
     background-image: url(image/background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    color: beige;
     
     
 }
@@ -15,39 +16,41 @@ body {
     left: 449px;
     top: 212px;
     font-size: 41px;
-    border: 1px solid #89c4f4;
+    border: 1px solid #fbfbfb85;
     padding-right: 336px;
     padding-left: 151px;
     padding-bottom: 572px;
-    background-color: #89c4f4;
-    opacity: 0.1;
+    background-color: #00000059;
+    
 }
 .title {
     position: absolute;
     left: 508px;
     top: 279px;
     font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .Username {
     position: absolute;
     left: 506px;
     top: 391px;
-    font-size: 25px;
+    font-size: 19px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     
 }
 .myid1 {
     position: absolute;
     left: 502px;
     top: 422px;
-    background-color:  #89c4f4;
+    background-color:  #d4d4d475;
     border-top: 0px;
-    border-bottom: 1px solid blue;
+    border-bottom: 1px solid #e4e4e4;
     border-right: 0px;
     border-left: 0px;
     padding-right: 223px;
     padding-bottom: 10px;
     padding-top: 3px;
-    opacity: 0.3;
+    
     
 }
 .message0 {
@@ -60,7 +63,8 @@ body {
     position: absolute;
     left: 506px;
     top: 475px;
-    font-size: 25px;
+    font-size: 19px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     
     
 }
@@ -74,15 +78,15 @@ body {
     position: absolute;
     left: 503px;
     top: 512px;
-    background-color:  #89c4f4;
+    background-color:   #d4d4d475;
     border-top: 0px;
-    border-bottom: 1px solid blue;
+    border-bottom: 1px solid #e4e4e4;
     border-right: 0px;
     border-left: 0px;
     padding-right: 223px;
     padding-bottom: 10px;
     padding-top: 3px;
-    opacity: 0.3;
+    
     
     
 }
@@ -90,22 +94,23 @@ body {
     position: absolute;
     left: 506px;
     top: 566px;
-    font-size: 25px;
+    font-size: 19px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     
 }
 .myid3 {
     position: absolute;
     left: 503px;
     top: 600px;
-    background-color:  #89c4f4;
+    background-color: #d4d4d475 ;
     border-top: 0px;
-    border-bottom: 1px solid blue;
+    border-bottom: 1px solid #e4e4e4;
     border-right: 0px;
     border-left: 0px;
     padding-right: 253px;
     padding-bottom: 10px;
     padding-top: 3px;
-    opacity: 0.3;
+    
 }
 .message3 {
     position: absolute;
@@ -117,22 +122,23 @@ body {
     position: absolute;
     left: 506px;
     top: 653px;
-    font-size: 25px;
+    font-size: 19px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     
 }
 .myid4 {
     position: absolute;
     left: 503px;
     top: 687px;
-    background-color:  #89c4f4;
+    background-color:  #d4d4d475;
     border-top: 0px;
-    border-bottom: 1px solid blue;
+    border-bottom: 1px solid #e4e4e4;
     border-right: 0px;
     border-left: 0px;
     padding-right: 223px;
     padding-bottom: 10px;
     padding-top: 3px;
-    opacity: 0.3;
+    
 }
 .message4 {
     position: absolute;
@@ -143,9 +149,12 @@ body {
 }
 .button {
     position: absolute;
-    left: 652px;
-    top: 758px;
-    padding: 10px;
+    left: 599px;
+    top: 749px;
+    padding-top: 13px;
+    padding-left: 67px;
+    padding-right: 74px;
+    padding-bottom: 15px;
     border: 1px solid black;
     border-radius: 10px;
     background-color: black;
@@ -157,5 +166,6 @@ body {
     left: 625px;
     top: 228px;
     font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     
 }

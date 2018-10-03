@@ -12,3 +12,13 @@ function carousel() {
     x[myIndex-1].style.display = "block";  
     setTimeout(carousel, 3000); 
 }
+function verification() {
+    var d = JSON.parse(localStorage.getItem("idtab2"));
+    console.log(d);
+    if (d == null) {
+        
+    var s = document.getElementById("lien").innerHTML = window.location.href = "login.html";
+
+        
+    }
+}
